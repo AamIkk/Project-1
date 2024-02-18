@@ -1,0 +1,133 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0
+}
+.container{
+    margin: 0 auto;
+    max-width: 1300px;
+}
+header{
+    background-color: #2F2F2F;
+}
+.categori{
+    display: flex;
+    justify-content: space-between;
+}
+.categories{
+    margin-top: 20px;
+    display: flex;
+    gap: 30px;
+}
+.categories a{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25.6px;
+    color: white;
+    text-decoration: none;
+}   
+section{
+    background-color: #2F2F2F;
+}
+.block{
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+}
+.firstBlock{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 125px;
+}
+.firstBlock h6{
+    color: #F59B00;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+}
+.firstBlock h5{
+    color: white;
+    font-weight: 700;
+    font-size: 61px;
+    line-height: 79.3px;
+}
+.firstBlock p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25.6px;
+    color: white;
+}
+.secondBlock {
+    position: relative;
+}
+
+.secondBlock img:first-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.reg{
+    display: flex;
+    justify-content: center;
+    width: 1200px;
+    margin-top: 80px;
+    background-color: #2F2F2F;
+}
+.reg-img img{
+    width: 120%;
+    border-radius: 13px;
+}
+.reg-list{
+    margin-top: 106px;
+    margin-left: 90px;
+    align-items: center;
+}
+.reg-list h2{
+    color: white;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 45px;
+}
+.inp{
+    width: 232px;
+    height: 54px;
+    top: 3625px;
+    left: 1071px;
+    border-radius: 10px;
+    border: 1px;
+    margin-top: 25px;
+}
+.inp1{
+    width: 514px;
+    height: 54px;
+    top: 3709px;
+    left: 789px;
+    border-radius: 10px;
+    border: 1px;
+    margin-top: 25px;
+}
+.bag-img img{
+    margin-left: 25px;
+    width: 264px;
+    border-radius: 13px;
+    margin-bottom: 25px;
+}
+.bag-logo{
+    margin-top: 75px;
+    text-align: center;
+}
+.bag-logo h3{
+    font-weight: 700;
+    font-size: 31px;
+    line-height: 43.4px;
+}
+.bag-logo p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25.6px;
+}
